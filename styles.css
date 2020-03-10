@@ -1,0 +1,146 @@
+body{
+  font-style:'Montserrat';
+}
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+button{
+  margin:0 3% 0 0;
+}
+h1{
+  font-family: 'Montserrat-Black';
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900 ;
+}
+.container-fluid{
+  padding:6% 15%;
+}
+.image1{
+  transform:rotate(10deg);
+  width:40%;
+  position: absolute;
+  left:20%;
+}
+.navbar-brand
+{
+  font-family:'Ubuntu', sans-serif;
+   font-size:2.1rem;
+   font-weight:bold;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding:1.1rem;
+}
+.nav-link{
+  font-size:1.2rem;
+  font-family:"Montserrat";
+}
+.feature-box{
+  text-align: center;
+  padding:5%;
+}
+.feat{
+  font-family:"Montserrat-bold";
+  font-weight: 700;
+}
+ #features{
+   padding:7% 15%;
+   background-color: #fff;
+   position:relative;
+   z-index: 1;
+ }
+.featur{
+  color:#ef8172;
+  margin-bottom:1rem;
+}
+.featur:hover{
+  color:#ef8190;
+}
+.para{
+  color:#8f8f8f;
+text-align: center;
+}
+
+/* testimonial section */
+#testimonials{
+  background-color:#ef8172;
+
+  color:#fff;
+  text-align: center;
+}
+h2{
+  color:#fff;
+  font-family:"Montserrat";
+  font-weight:bold;
+}
+.testimonials-image{
+  border-radius: 100%;
+  width:20%;
+  padding-top:4%;
+}
+
+ /* press section */
+ #press{
+   background-color:#ef8172;
+   padding-bottom:5%;
+   text-align: center;
+ }
+ .press-logo{
+   width:10%;
+   margin:3% 3%;
+ }
+ .carousel-inner{
+   padding:7% 15%;
+ }
+ /* pricing */
+#pricing{
+  padding: 7rem;
+  text-align: center;
+}
+.text{
+  color:#000;
+}
+.pricing-h2{
+  color:#000;
+  font-family:"Montserrat";
+  font-weight:bold;
+}
+/* media queries */
+@media (max-width:992px)
+{
+  .image1{
+    position:static;
+
+    transform:rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+}
+/* cta section */
+#cta{
+  text-align: center;
+  padding:7% 15%;
+  background-color: #ff4c68;
+  color:#fff;
+  font-style: "Montserrat";
+  font-weight: 900;
+}
+.cta-btn{
+  margin-top:3%;
+}
+
+/* footer section */
+#footer{
+  padding:5% 14%;
+  text-align: center;
+  color:#8f8f8f;
+}
+.footer-i
+{
+  margin:1%;
+}
